@@ -19,14 +19,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "River Park Nursing Foot Care",
+    default: "Mobile Foot Care Nurse in Winnipeg | River Park Nursing Foot Care",
     template: "%s | River Park Nursing Foot Care",
   },
 verification: {
   google: "so4AVwTegznX3v33h5tPy_2KLmq9mXj_bxhw9qEun_Y",
 },
   description:
-    "Professional mobile nursing foot care provided in the comfort of your home.",
+     "Professional mobile nursing foot care in Winnipeg. River Park Nursing Foot Care offers diabetic foot care, foot health assessments, corn and callus reduction, and care for dry heels.",
 
   keywords: [
     "foot care nurse",
