@@ -343,13 +343,13 @@ export default function Home() {
       {/* ABOUT */}
       <section id="about">
 
-        <div className="about-photo">
-
-          <div className="photo-placeholder large">
-            Professional Photo
-          </div>
-
-        </div>
+       <div className="about-photo about-visual">
+  <div className="about-visual-content">
+    <span>20+ YEARS OF EXPERIENCE</span>
+    <h3>Compassionate care. Every step of the way.</h3>
+    <p>Registered Nurse • Certified Foot Care Nurse</p>
+  </div>
+</div>
 
 
         <div className="about-text">
