@@ -22,7 +22,9 @@ export const metadata: Metadata = {
     default: "River Park Nursing Foot Care",
     template: "%s | River Park Nursing Foot Care",
   },
-
+verification: {
+  google: "so4AVwTegznX3v33h5tPy_2KLmq9mXj_bxhw9qEun_Y",
+},
   description:
     "Professional mobile nursing foot care provided in the comfort of your home.",
 
