@@ -1435,3 +1435,579 @@ nav {
   font-size: 14px;
   color: #45665c;
 }
+/* DIRECT BILLING SECTION */
+
+.insurance-section {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 50px;
+  align-items: center;
+  padding: 90px 8%;
+  background: #f4f8f4;
+}
+
+.insurance-content h2 {
+  color: #234b43;
+  margin-bottom: 20px;
+}
+
+.insurance-content p {
+  color: #536b62;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.insurance-content .insurance-note {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.insurance-visual {
+  padding: 45px 35px;
+  background: #dcece4;
+  border-radius: 25px;
+  text-align: center;
+  color: #234b43;
+}
+
+.insurance-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: #234b43;
+  color: white;
+  font-size: 38px;
+}
+
+.insurance-visual h3 {
+  color: #234b43;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.insurance-visual p {
+  color: #536b62;
+}
+
+@media (max-width: 768px) {
+  .insurance-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 60px 6%;
+  }
+
+  .insurance-visual {
+    padding: 35px 25px;
+  }
+}
+.contact-item .payment-note {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+
+
+
+/* ==================================
+   RIVER PARK - NEW BRAND COLORS
+   ================================== */
+
+:root {
+  --brand-dark: #421007;
+  --brand-peach: #ffbcb0;
+  --brand-cream: #fff5f0;
+  --brand-brown: #8c4a3d;
+}
+
+/* MAIN BACKGROUND */
+
+body {
+  background: var(--brand-cream);
+  color: var(--brand-dark);
+}
+
+/* HEADINGS */
+
+h1, h2, h3 {
+  color: var(--brand-dark);
+}
+
+/* NAVIGATION */
+
+nav {
+  background: rgba(255, 245, 240, 0.96);
+}
+
+.nav-brand,
+.brand-text strong,
+.brand-text span,
+.nav-links a:not(.nav-call-button) {
+  color: var(--brand-dark);
+}
+
+/* BUTTONS */
+
+.primary-button,
+.nav-call-button,
+.services-book-button,
+.contact-button {
+  background: var(--brand-dark);
+  color: white;
+}
+
+.primary-button:hover,
+.nav-call-button:hover,
+.services-book-button:hover,
+.contact-button:hover {
+  background: var(--brand-brown);
+}
+
+/* HERO */
+
+.hero {
+  background: var(--brand-cream);
+}
+
+.hero-animation {
+  background: linear-gradient(135deg, #ffbcb0, #fff5f0);
+}
+
+.floating-circle {
+  background: rgba(140, 74, 61, 0.13);
+}
+
+.hero-ring {
+  border-color: rgba(66, 16, 7, 0.18);
+}
+
+.animation-message {
+  color: var(--brand-dark);
+}
+
+/* WHY FOOT CARE */
+
+.why-foot-care {
+  background: #fffaf7;
+}
+
+.why-card {
+  background: #ffe8e1;
+}
+
+/* SERVICES */
+
+#services {
+  background: var(--brand-cream);
+}
+
+.service-card {
+  background: #fffaf7;
+  border-color: #f0d2c9;
+}
+
+.service-card span,
+.why-number,
+.small-heading {
+  color: var(--brand-brown);
+}
+
+/* ABOUT */
+
+#about {
+  background: #fffaf7;
+}
+
+.about-visual {
+  background: linear-gradient(135deg, #ffbcb0, #f9ded6);
+  color: var(--brand-dark);
+}
+
+.about-visual-content h3 {
+  color: var(--brand-dark);
+}
+
+.about-visual-content p {
+  color: var(--brand-brown);
+}
+
+.qualification-box {
+  background: #ffe8e1;
+}
+
+/* INSURANCE */
+
+.insurance-section {
+  background: var(--brand-cream);
+}
+
+.insurance-visual {
+  background: var(--brand-peach);
+  color: var(--brand-dark);
+}
+
+.insurance-icon {
+  background: var(--brand-dark);
+}
+
+/* CONTACT */
+
+.contact-section {
+  background: var(--brand-dark);
+  color: white;
+}
+
+.contact-section h2,
+.contact-section .contact-info,
+.contact-section .contact-details,
+.contact-section .contact-details a {
+  color: white;
+}
+
+.contact-side-card {
+  background: var(--brand-peach);
+  color: var(--brand-dark);
+}
+
+.contact-side-card h3,
+.contact-side-card p,
+.contact-side-card .contact-card-label,
+.contact-side-card .contact-card-note {
+  color: var(--brand-dark) !important;
+}
+
+/* FOOTER */
+
+.site-footer {
+  background: #300d07;
+  color: white;
+}
+
+.site-footer a {
+  color: var(--brand-peach);
+}
+
+/* =====================================
+   STEP 35 - FINAL BRAND COLOR FIXES
+   ===================================== */
+
+/* HERO */
+
+.hero {
+  background: #fff5f0 !important;
+}
+
+.hero-description,
+.hero-features,
+.hero-features span {
+  color: #421007 !important;
+}
+
+.hero .primary-button,
+.hero .secondary-button {
+  background: #421007 !important;
+  color: #ffffff !important;
+  border-color: #421007 !important;
+}
+
+.hero .primary-button:hover,
+.hero .secondary-button:hover {
+  background: #8c4a3d !important;
+}
+
+/* HEADINGS AND TEXT */
+
+.why-heading h2,
+.why-intro,
+.why-card h3,
+.why-card p,
+#services h2,
+#services > p,
+.service-card p,
+.about-text h2,
+.about-text p,
+.qualification-list li,
+.insurance-content h2,
+.insurance-content p,
+.insurance-visual h3,
+.insurance-visual p {
+  color: #421007 !important;
+}
+
+/* REMOVE GREEN CARD ACCENTS */
+
+.why-card,
+.service-card,
+.qualification-box {
+  border-color: #f0c7bc !important;
+}
+
+.qualification-box {
+  border-left: 5px solid #8c4a3d !important;
+}
+
+/* INSURANCE */
+
+.insurance-visual h3,
+.insurance-visual p {
+  color: #421007 !important;
+}
+
+/* CONTACT - CHOCOLATE BROWN */
+
+#contact.contact-section {
+  background: #421007 !important;
+}
+
+#contact .contact-info h2,
+#contact .contact-description,
+#contact .contact-details a,
+#contact .contact-item p {
+  color: #ffffff !important;
+}
+
+#contact .contact-item {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(255, 188, 176, 0.2) !important;
+}
+
+#contact .contact-item span {
+  color: #ffbcb0 !important;
+}
+
+#contact .contact-side-card {
+  background: #ffbcb0 !important;
+}
+
+#contact .contact-side-card h3,
+#contact .contact-side-card p {
+  color: #421007 !important;
+}
+
+/* CONTACT BUTTONS */
+
+#contact .contact-button {
+  background: #ffbcb0 !important;
+  color: #421007 !important;
+}
+
+#contact .email-button {
+  border-color: #ffbcb0 !important;
+  color: #ffffff !important;
+}
+
+/* FOOTER */
+
+.site-footer {
+  background: #300d07 !important;
+}
+
+/* STEP 35 - REMOVE REMAINING GREEN */
+
+/* Hero background and buttons */
+.hero {
+  background: #fff5f0 !important;
+}
+
+.hero-description,
+.hero-features span {
+  color: #421007 !important;
+}
+
+.hero .primary-button,
+.hero .secondary-button {
+  background: #421007 !important;
+  color: white !important;
+  border-color: #421007 !important;
+}
+
+/* Section headings and descriptions */
+.why-heading h2,
+.why-intro,
+.why-card h3,
+.why-card p,
+#services h2,
+#services > p,
+.service-card p,
+.about-text h2,
+.about-text p,
+.qualification-list li,
+.insurance-content h2,
+.insurance-content p,
+.insurance-visual h3,
+.insurance-visual p {
+  color: #421007 !important;
+}
+
+/* Card borders */
+.why-card,
+.service-card,
+.qualification-box {
+  border-color: #f0c7bc !important;
+}
+
+.qualification-box {
+  border-left: 5px solid #8c4a3d !important;
+}
+
+/* Insurance card */
+.insurance-visual h3,
+.insurance-visual p {
+  color: #421007 !important;
+}
+
+/* Contact background */
+#contact.contact-section {
+  background: #421007 !important;
+}
+
+/* Contact text */
+#contact .contact-info h2,
+#contact .contact-description,
+#contact .contact-details a,
+#contact .contact-item p {
+  color: white !important;
+}
+
+/* Contact information cards */
+#contact .contact-item {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(255, 188, 176, 0.2) !important;
+}
+
+#contact .contact-item span {
+  color: #ffbcb0 !important;
+}
+
+/* Peach contact card */
+#contact .contact-side-card {
+  background: #ffbcb0 !important;
+}
+
+#contact .contact-side-card h3,
+#contact .contact-side-card p {
+  color: #421007 !important;
+}
+
+/* Contact buttons */
+#contact .contact-button {
+  background: #ffbcb0 !important;
+  color: #421007 !important;
+}
+
+#contact .email-button {
+  border-color: #ffbcb0 !important;
+  color: white !important;
+}
+
+/* Footer */
+.site-footer {
+  background: #300d07 !important;
+}
+
+/* =====================================
+   STEP 36 - HERO LAYOUT FIX
+   ===================================== */
+
+/* DESKTOP HERO */
+
+.hero {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr) !important;
+  align-items: center !important;
+  gap: 60px !important;
+  padding: 90px 8% !important;
+  min-height: 650px;
+}
+
+.hero-text {
+  width: 100% !important;
+  max-width: 680px;
+  min-width: 0;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+.hero-text h1 {
+  color: #421007 !important;
+  font-size: clamp(38px, 4.5vw, 68px);
+  line-height: 1.1;
+}
+
+.hero-animation {
+  width: 100% !important;
+  max-width: 550px !important;
+  min-width: 0;
+  min-height: 450px;
+  margin: 0 auto !important;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #ffbcb0, #fff0e9);
+}
+
+.animation-message {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 8%;
+  width: auto;
+  max-width: none;
+  z-index: 2;
+}
+
+.animation-message span,
+.animation-message h3,
+.animation-message p {
+  color: #421007 !important;
+}
+
+/* MOBILE AND TABLET */
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    padding: 65px 6% !important;
+    min-height: auto;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: clamp(34px, 7vw, 52px);
+  }
+
+  .hero-animation {
+    max-width: 100% !important;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 50px 5% !important;
+    gap: 30px !important;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-animation {
+    min-height: 320px;
+  }
+
+  .animation-message {
+    left: 6%;
+    right: 6%;
+    bottom: 6%;
+  }
+}

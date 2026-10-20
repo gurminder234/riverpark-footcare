@@ -67,7 +67,6 @@ export default function Home() {
 
   <span>✓ Certified Foot Care Nurse</span>
 
-  <span>✓ 20+ Years Experience</span>
 
   <span>✓ Mobile Home Visits</span>
 
@@ -209,104 +208,101 @@ export default function Home() {
   </p>
 
 
-  <div className="services-grid">
+  
+<div className="services-grid">
 
-    <div className="service-card">
-
-      <span>01</span>
-
-      <h3>
-        Foot Health Assessment
-      </h3>
-
-      <p>
-        Initial evaluation and consultation to understand your
-        foot health concerns and individual care needs.
-      </p>
-
-    </div>
-
-
-    <div className="service-card">
-
-      <span>02</span>
-
-      <h3>
-        Diabetic Foot Care
-      </h3>
-
-      <p>
-        Professional nursing foot care for clients living with
-        diabetes, with careful attention to foot health and comfort.
-      </p>
-
-    </div>
-
-
-    <div className="service-card">
-
-      <span>03</span>
-
-      <h3>
-        Arthritis Foot Care
-      </h3>
-
-      <p>
-        Gentle foot care for clients living with arthritis and
-        related challenges affecting their feet.
-      </p>
-
-    </div>
-
-
-    <div className="service-card">
-
-      <span>04</span>
-
-      <h3>
-        Corn & Callus Reduction
-      </h3>
-
-      <p>
-        Professional reduction of corns and calluses to support
-        more comfortable feet.
-      </p>
-
-    </div>
-
-
-    <div className="service-card">
-
-      <span>05</span>
-
-      <h3>
-        Cracked & Dry Heel Care
-      </h3>
-
-      <p>
-        Care for dry, cracked heels with a focus on improving
-        comfort and maintaining healthy skin.
-      </p>
-
-    </div>
-
-
-    <div className="service-card">
-
-      <span>06</span>
-
-      <h3>
-        Mobile Foot Care
-      </h3>
-
-      <p>
-        Professional foot care brought directly to you in the
-        comfort and convenience of your own home.
-      </p>
-
-    </div>
-
+  <div className="service-card">
+    <span>01</span>
+    <h3>Foot Health Assessment</h3>
+    <p>
+      Comprehensive foot and lower-leg assessments,
+      footwear evaluation, and foot-risk screening
+      to understand your individual care needs.
+    </p>
   </div>
+
+  <div className="service-card">
+    <span>02</span>
+    <h3>Diabetic Foot Care</h3>
+    <p>
+      Professional nursing foot care for clients
+      living with diabetes, with attention to
+      foot health, prevention, and comfort.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>03</span>
+    <h3>Ingrown Toenail Care</h3>
+    <p>
+      Professional assessment and nursing care
+      for ingrown toenails, with guidance on
+      appropriate follow-up when needed.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>04</span>
+    <h3>Fungal Nail Care</h3>
+    <p>
+      Assessment and care for nails affected by
+      fungal concerns, along with practical
+      foot hygiene and aftercare guidance.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>05</span>
+    <h3>Toenail Trimming &amp; Reduction</h3>
+    <p>
+      Professional toenail trimming and thickened
+      nail reduction to support comfort and
+      everyday foot care.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>06</span>
+    <h3>Corn, Callus &amp; Heel Care</h3>
+    <p>
+      Corn and callus reduction, along with
+      care for cracked heels and dry skin
+      to help maintain comfortable feet.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>07</span>
+    <h3>Arthritis Foot Care</h3>
+    <p>
+      Gentle nursing foot care for clients
+      living with arthritis and related
+      foot-care challenges.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>08</span>
+    <h3>Education &amp; Aftercare</h3>
+    <p>
+      Preventative foot-health education,
+      aftercare guidance, and referrals
+      to other foot-care professionals when needed.
+    </p>
+  </div>
+
+  <div className="service-card">
+    <span>09</span>
+    <h3>Mobile Nursing Foot Care</h3>
+    <p>
+      Professional foot-care services delivered
+      directly to you in the comfort and
+      convenience of your home.
+    </p>
+  </div>
+
+</div>
+
 <div className="services-gallery">
 
   <div className="gallery-photo">
@@ -345,7 +341,7 @@ export default function Home() {
 
        <div className="about-photo about-visual">
   <div className="about-visual-content">
-    <span>20+ YEARS OF EXPERIENCE</span>
+    <span>PERSONALIZED NURSING FOOT CARE</span>
     <h3>Compassionate care. Every step of the way.</h3>
     <p>Registered Nurse • Certified Foot Care Nurse</p>
   </div>
@@ -359,15 +355,15 @@ export default function Home() {
           </p>
 
           <h2>
-            Professional care with a personal approach.
+             Meet Beant Kaur Ranouta, RN, FCN.
           </h2>
 
           <p>
-           Beant is a dedicated Registered Nurse and Certified Foot Care
-    Nurse with over 20 years of experience in healthcare settings.
-    With a background in senior care and advanced training in
-    medical foot care, she provides safe, gentle, and clinically
-    informed care in the comfort of your home.
+           Beant Kaur Ranouta is a dedicated Registered Nurse (RN)
+  and Certified Foot Care Nurse (FCN). With a background
+  in healthcare and senior care, along with advanced
+  training in medical foot care, she provides gentle,
+  professional nursing foot care in the comfort of your home.
           </p>
 
           <p>
@@ -385,7 +381,7 @@ export default function Home() {
            <ul className="qualification-list">
       <li>Registered Nurse (RN)</li>
       <li>Certified Foot Care Nurse (FCN)</li>
-      <li>20+ years of healthcare experience</li>
+      
       <li>
         Skilled in diabetic foot care, nail and skin conditions,
         and preventative education
@@ -401,6 +397,51 @@ export default function Home() {
 
       </section>
 
+
+{/* DIRECT BILLING */}
+<section id="insurance" className="insurance-section">
+
+  <div className="insurance-content">
+
+    <p className="small-heading">
+      Insurance &amp; Payment
+    </p>
+
+    <h2>
+      Direct billing made simple.
+    </h2>
+
+    <p>
+      We offer direct billing to most major insurance
+      providers, making your foot care experience
+      easier and more convenient.
+    </p>
+
+    <p>
+      If your plan is eligible, we submit your claim
+      electronically at the end of your visit.
+      You only pay the portion your insurance
+      plan does not cover.
+    </p>
+
+    <p className="insurance-note">
+      Coverage and eligibility depend on your
+      individual insurance plan.
+    </p>
+
+    <a href="#contact" className="primary-button">
+      Ask About Direct Billing
+    </a>
+
+  </div>
+
+  <div className="insurance-visual">
+    <div className="insurance-icon">✓</div>
+    <h3>Less paperwork. More peace of mind.</h3>
+    <p>Convenient insurance claim submission for eligible plans.</p>
+  </div>
+
+</section>
 
       {/* CONTACT */}
     {/* CONTACT */}
@@ -453,7 +494,12 @@ export default function Home() {
       <div className="contact-item">
         <span>Payment</span>
 
-        <p>Cash • Credit • E-Transfer</p>
+        <p>Cash • Credit • E-Transfer • Direct Insurance Billing</p>
+
+        <p className="payment-note">
+  Direct billing available with most major insurance providers,
+  subject to plan eligibility and coverage.
+</p>
       </div>
 
     </div>
